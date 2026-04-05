@@ -1,0 +1,23 @@
+{
+  "name": "testing-lattice-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "deploy": "npx netlify deploy --dir . --prod --no-build"
+  },
+  "keywords": [
+    "testing",
+    "framework",
+    "quality",
+    "lattice"
+  ],
+  "author": "Shubham Sharma",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}

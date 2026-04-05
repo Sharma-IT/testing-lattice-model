@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Testing Lattice Model — A Systematic Testing Framework</title>
+  <meta name="description"
+    content="The Testing Lattice is a systematic framework for mapping test types to quality gates. It replaces volume ratios with gate assignments, fault localisation scoring, and mandatory production coverage.">
+  <meta name="theme-color" content="#0B0B0F">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/88814023?v=4">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav-brand" id="nav-brand">
+      Testing Lattice
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link" data-route="home">Home</a></li>
+      <li><a href="#lattice" class="nav-link" data-route="lattice">Lattice</a></li>
+      <li><a href="#gates" class="nav-link" data-route="gates">Gates</a></li>
+      <li><a href="#attributes" class="nav-link" data-route="attributes">Attributes</a></li>
+      <li><a href="#tools" class="nav-link" data-route="tools">Tools</a></li>
+      <li><a href="#localisation" class="nav-link" data-route="localisation">Localisation</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">☀</button>
+      <button class="nav-mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+    <a href="#home" class="mobile-menu-link" data-route="home">Home</a>
+    <a href="#lattice" class="mobile-menu-link" data-route="lattice">Lattice Grid</a>
+    <a href="#gates" class="mobile-menu-link" data-route="gates">Gates</a>
+    <a href="#attributes" class="mobile-menu-link" data-route="attributes">Attributes</a>
+    <a href="#tools" class="mobile-menu-link" data-route="tools">Tool Catalogue</a>
+    <a href="#localisation" class="mobile-menu-link" data-route="localisation">Fault Localisation</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main" id="main" role="main">
+    <!-- Views rendered here by app.js -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <p>The Testing Lattice Model — An open framework for systematic test strategy design. © Shubham Sharma</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
